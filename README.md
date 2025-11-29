@@ -36,6 +36,8 @@ The app code runs in Azure Container Apps to process the user input and generate
 
 • **[Flexible Deployment Options](./docs/deployment.md)**: The solution supports deployment through GitHub Codespaces, VS Code Dev Containers, or local environments, providing flexibility for different development workflows.
 
+• **[Architecture Reference](./docs/architecture_reference.md)**: Detailed technical documentation of the codebase including all implemented features, Azure services, code locations, data flow diagrams, and opportunities for expansion.
+
 Here is a screenshot showing the chatting web application with requests and responses between the system and the user:
 
 ![Screenshot of chatting web application showing requests and responses between assistants and the user.](docs/images/webapp_screenshot.png)
