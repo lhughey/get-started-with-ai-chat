@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(az login:*)",
+      "Bash(az group show:*)",
+      "Bash(for sub in 0cced380-1f40-4da3-a447-f37e04c13079 83948773-79b5-43da-acfa-ac9ac506c450 2d05fb04-e9b6-4f57-9248-7c911a33af2d b5332f58-3151-48fc-af3f-1a60f443621f 7dad2488-6bcb-4719-b675-40991b119030)",
+      "Bash(do echo \"Checking $sub...\")",
+      "Bash(az account set:*)",
+      "Bash(break)",
+      "Bash(done)",
+      "Bash(az ml workspace:*)",
+      "Bash(az resource list:*)",
+      "Bash(az cognitiveservices account show:*)",
+      "Bash(az cognitiveservices account deployment list:*)",
+      "Bash(az rest:*)",
+      "Bash(azd auth login:*)",
+      "Bash(brew list:*)",
+      "Bash(brew --prefix:*)",
+      "Bash(brew tap:*)",
+      "Bash(brew install:*)",
+      "Bash(git lfs install:*)",
+      "Bash(curl:*)",
+      "Bash(bash)",
+      "Bash(/opt/homebrew/bin/git-lfs version)",
+      "Bash(PATH=\"/opt/homebrew/bin:$PATH\" brew tap:*)",
+      "Bash(~/bin/azd auth login:*)",
+      "Bash(az role assignment list:*)",
+      "Bash(az ad signed-in-user:*)",
+      "Bash(az role assignment create:*)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
